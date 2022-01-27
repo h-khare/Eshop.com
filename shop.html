@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EShop.com Shopping</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  
+  <!-- Navbar Starts -->
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg">
+    <div class=" container-fluid">
+      <a class="navbar-brand" href="#"><i class="carss fas desh fa-shopping-cart"></i>EShop<span>.com</span></a>
+      <i class="navbar-toggler fas fa-bars" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </i>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link lis" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lis" href="giv.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lis " href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lis active" href="shop.html">Shop Now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lis" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item nm">
+            <a class="nav-link fas fa-heart" href="#"></a>
+          </li>
+          <li class="nav-item nm">
+            <a class="nav-link fas fa-shopping-cart" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <!-- End navbar -->
+
+<section class="shop">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 ">
+        <div class="shop-content">
+          <form action="" class="shop-form">
+            <input type="text" placeholder="Search...">
+            <button><span><i class="fas fa-search"></i></span></button>
+          </form>
+        </div>
+        <div class="scroll">
+          <a class="cat-link" data-bs-toggle="collapse" data-bs-target="#categories">CATEGORIES <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="collapse" id="categories">
+            <ul>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="">Bags</a></li>
+              <li><a href="#">Clothing</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Kids</a></li>
+            </ul>
+            <hr>
+          </div>
+          <a class="cat-link" data-bs-toggle="collapse" data-bs-target="#branding">BRANDING <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="collapse" id="branding">
+            <ul>
+              <li><a href="#">Louis Vuitton</a></li>
+              <li><a href="#">Chanel</a></li>
+              <li><a href="#">Hermes</a></li>
+              <li><a href="#">Gucci</a></li>
+            </ul>
+            <hr>
+          </div>
+          <a class="cat-link" data-bs-toggle="collapse" data-bs-target="#filterprice">FILTER PRICE <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="collapse" id="filterprice">
+            <ul>
+              <li><a href="#">₹99-₹199</a></li>
+              <li><a href="#">₹199-₹799</a></li>
+              <li><a href="#">₹799-₹1199</a></li>
+              <li>  <a href="#">₹1199-₹1699</a></li>
+              <li><a href="#">₹1699-₹5999</a></li>
+              <li><a href="#">₹5999-₹20000</a></li>
+              <li>  <a href="#">₹20000+</a></li>
+            </ul>
+            <hr>
+          </div>
+          <a class="cat-link" data-bs-toggle="collapse" data-bs-target="#size">SIZE <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="collapse" id="size">
+            <hr>
+          </div>
+          <a class="cat-link" data-bs-toggle="collapse" data-bs-target="#colors">COLORS <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="collapse" id="colors">
+            <hr>
+          </div>
+          <a class="cat-link" data-bs-toggle="collapse" data-bs-target="#tags">TAGS <span><i class="fas fa-chevron-down"></i></span></a>
+          <div class="collapse" id="tags">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <ul class="shop-image-content">
+          <li>Showing 1-2 of 126 results</li>
+          <li>Short by price: </li>
+        </ul>
+        <div class="shop-images">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5 tos">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-1.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Shoes</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹999</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-2.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content  product-item-contents">
+                <p>Men's Shirt</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹499</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-3.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Shoes</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹1,299</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-4.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Women Huddy</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹799</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-5.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Tshirt</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹599</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-6.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Cotton Cloth</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹299</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-7.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Leather Bag</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹2,999</h5>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+              <div class="shop-images-setting product-items-images"  >
+                <img src="img/product-8.jpg.webp" alt="">
+                <ul class="">
+                  <li><a href="#" class="ipos fas fa-heart"></a></li>
+                  <li><a href="#" class="iposs" >+ Add to Cart</a></li>
+                </ul>
+              </div>
+              <div class="product-item-content product-item-contents">
+                <p>Men's Tshirt</p>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <h5>₹399</h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="footers" >
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6"  >
+            <h1><a class="navbar-brand kps" href="#"><i class="carss fas desh fa-shopping-cart"></i>EShop<span>.com</span></a></h1>
+            <p>The customer is at the heart of our unique business model, which includes design.</p>
+            <a href="#"><img src="img/payement.webp" alt=""></a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 sl" >
+            <h4>SHOPPING</h4>
+            <ul class="shoping-list">
+              <li><a href="#">Clothing Store</a></li>
+              <li><a href="#">Trending Store</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Sale</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 sl"  >
+            <h4>HELPING LINKS</h4>
+            <ul class="help-list">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Payment Methods</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Return & Exchanges</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 sl"  >
+            <h3>NEWSLETTER</h3>
+            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+            <input type="email" name="" value="" placeholder="example@gmail.com"><a href="#"><i class="far fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-toss">
+
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright © 2022 All rights reserved | This template is made by <span>Harsh Khare</span></p>
+        </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init(
+     {
+       offset:300,
+       duration:1000
+     }
+   );
+ </script>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
